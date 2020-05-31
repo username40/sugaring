@@ -1,0 +1,158 @@
+.price {
+    padding-top: 50px;
+    padding-bottom: 80px
+}
+
+.do-it-right-now, .price__title {
+    text-transform: uppercase;
+    text-align: center
+}
+
+.price__title {
+    color: #000;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-family: "NotoSans-SemiBold";
+    word-break: break-word;
+    line-height: 1.2;
+    font-size: 2.8em
+}
+
+.do-it-right-now {
+    font-size: 2em;
+    margin-top: 60px
+}
+
+.discount-conditions {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 15px;
+    line-height: 1.2
+}
+
+.price-list {
+    max-width: 900px;
+    margin: 0 auto 20px
+}
+
+.accordeon {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding-left: 0
+}
+
+.accordeon-header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    min-height: 3rem;
+    line-height: 3rem;
+    padding: 0 5px;
+    text-align: center
+}
+
+.accordeon-header:after, .accordeon-header:before {
+    content: "➕";
+    font-size: .6rem;
+    color: #777;
+    float: left
+}
+
+.accordeon-header:after {
+    float: right
+}
+
+.accordeon-header.active:after, .accordeon-header.active:before {
+    content: "➖"
+}
+
+.epilation-body {
+    width: 98%;
+    margin: 10px auto;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc
+}
+
+.accordeon-body {
+    display: none;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc
+}
+
+.weman-title-bgc {
+    background-color: #f5c6cb !important
+}
+
+.weman-bgc {
+    background-color: #f8d7da !important
+}
+
+.men-title-bgc {
+    background-color: #b8daff !important
+}
+
+.men-bgc {
+    background-color: #cce5ff !important
+}
+
+.visits {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex
+}
+
+.name-of-service, .visits > p {
+    text-align: center;
+    padding: 3px;
+    border: 1px solid #ccc
+}
+
+.visits > p {
+    width: 50%;
+    word-break: break-all
+}
+
+.name-of-service {
+    display: block
+}
+
+.prices {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+.items-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.service-price {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    width: 50%;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 6px;
+    padding-bottom: 6px
+}
+
+.width-100 {
+    width: 100%
+}
+
+.online-record-iframe {
+    height: 613px;
+    margin: 30px auto;
+    display: block;
+    max-width: 900px
+}

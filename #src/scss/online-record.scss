@@ -1,0 +1,43 @@
+.online-record-form {
+    padding-top: 50px;
+    padding-bottom: 80px
+}
+
+.online-record-form__title {
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 2.8em;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-family: "Noto Bold";
+    word-break: break-word;
+    line-height: 1.2
+}
+
+.record-online {
+    margin: 40px auto 0;
+    width: 900px;
+    height: 650px;
+    display: block
+}
+
+.online-record-link {
+    margin-top: 20px;
+    -ms-flex-item-align: start;
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+    padding: 15px 30px;
+    color: #000;
+    font-size: 1em;
+    background-color: #ffc107;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center
+}
+
+.online-record-link:hover {
+    background-color: #daa60a
+}

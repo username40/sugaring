@@ -1,0 +1,14 @@
+.svg-social-media-dims {
+    width: 100px;
+}
+
+img {
+    opacity: 1;
+    -webkit-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s
+}
+
+// img[data-master-src], img[data-src], img[data-svg-src] {
+//     opacity: 0
+// }

@@ -1,0 +1,28 @@
+.contacts {
+    padding-top: 50px;
+    padding-bottom: 80px
+}
+
+.contacts__description, .contacts__title {
+    color: #000;
+    text-align: center;
+    line-height: 1.2
+}
+
+.contacts__title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-family: "NotoSans-SemiBold";
+    word-break: break-word;
+    font-size: 2.8em
+}
+
+.contacts__description {
+    font-size: 1.2em;
+    margin-top: 20px
+}
+
+.map {
+    height: 500px
+}

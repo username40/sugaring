@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+sugaring
+package-lock.json
+desc
+.idea
+desktop.ini
