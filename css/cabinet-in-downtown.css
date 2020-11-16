@@ -1,0 +1,27 @@
+.cabinet-in-the-center-of-yekaterinburg {
+  /* The image used */
+  /* Set a specific height */
+  /* Create the parallax scrolling effect */
+}
+
+.cabinet-in-the-center-of-yekaterinburg__title {
+  -webkit-text-stroke: 0.5px #000;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.8em;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-family: "NotoSans-SemiBold";
+  word-break: break-word;
+  line-height: 1.2;
+}
+
+.cabinet-in-the-center-of-yekaterinburg__description {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8em;
+  line-height: 1.2;
+  max-width: 950px;
+  margin-top: 1em;
+}

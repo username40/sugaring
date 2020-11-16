@@ -1,0 +1,64 @@
+.advantages-of-sugaring {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.advantages-of-sugaring__title {
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 2.8em;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-family: "NotoSans-SemiBold";
+  word-break: break-word;
+  line-height: 1.2;
+}
+
+.advantages-of-sugaring__items-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (300px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 50px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.advantages-of-sugaring__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.advantages-of-sugaring__item > figcaption {
+  margin-top: 30px;
+}
+
+.advantages-of-sugaring__item-title {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.advantages-of-sugaring__item-description {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.item-image {
+  width: 150px;
+  height: 150px;
+}

@@ -1,0 +1,66 @@
+.callback-form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (280px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 280px);
+  grid-gap: 30px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 40px auto 0;
+  position: relative;
+}
+
+.callback-form__input {
+  color: #ccc;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+  outline: 0;
+  line-height: 1.5;
+}
+
+.callback-form__input:focus {
+  -webkit-box-shadow: 0 0 2px 2px #ffc107;
+  box-shadow: 0 0 2px 2px #ffc107;
+  color: #000;
+}
+
+.callback-form__submit-btn {
+  color: #000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid #ffc107;
+  background-color: #ffc107;
+  cursor: pointer;
+}
+
+.callback-form__submit-btn:hover {
+  background-color: #daa60a;
+  border: 1px solid #daa60a;
+}
+
+.snackBar {
+  visibility: hidden;
+  width: 90%;
+  background-color: #ffc107;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: absolute;
+  z-index: 1;
+  bottom: -70px;
+}
+
+.snackBar.show {
+  visibility: visible;
+  -webkit-animation: fadeIn .5s, fadeOut 5.5s;
+  animation: fadeIn .5s, fadeOut 5.5s;
+}
